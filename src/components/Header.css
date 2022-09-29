@@ -1,0 +1,16 @@
+
+.nav--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  background: linear-gradient(.25turn, #672280, #A626D3);
+  /* height: 65px; */
+
+}
+
+.nav--meme {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
