@@ -9,6 +9,12 @@
   gap: 17px;
 }
 
+.button--layout {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
 .form--input {
   border: 1px solid #D5D4D8;
   border-radius: 5px;
@@ -25,6 +31,6 @@
 }
 
 .meme--image {
-  width: 300px;
-  height: 300px;
+  max-width: 100%;
+  max-height: 100%;
 }
