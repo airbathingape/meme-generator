@@ -17,8 +17,8 @@ function Main() {
   return (
     <main className='main'>
       <div className='main--input'>
-        <input type="text" className='form--input' />
-        <input type="text" className='form--input' />
+        <input type="text" className='form--input' placeholder='Input Text'/>
+        <input type="text" className='form--input' placeholder='Input Text'/>
         <button onClick={getImage} className='button--input'>Get a new meme image</button>
       </div>
       <img src={image} alt="Meme" className='meme--image' />
