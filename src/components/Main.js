@@ -4,7 +4,7 @@ import React from 'react'
 
 function Main() {
 
-  const [image, setImage] = React.useState("")
+  const [image, setImage] = React.useState("http://i.imgflip.com/1bij.jpg")
 
   function getImage() {
 
