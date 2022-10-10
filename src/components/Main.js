@@ -46,7 +46,7 @@ function Main() {
         <input type="text" className='form--input' placeholder='Input Text' name='bottomText' value={meme.bottomText} onChange={handleChange} />
         <button onClick={getImage} className='button--input'>Get a new meme image</button>
       </div>
-
+      <br />
       <div className="meme">
         <img src={meme.randomImage} alt="Meme" className='meme--image' />
         <h2 className="meme--text top">{meme.topText}</h2>

@@ -18,7 +18,7 @@
 .button--input {
   grid-column: 1 / -1;
   border-radius: 5px;
-  background: linear-gradient(.25turn, #672280, #A626D3);
+  background: linear-gradient(.25turn, #223880, #4d66d4);
   color: white;
   border: none;
   cursor: pointer;
