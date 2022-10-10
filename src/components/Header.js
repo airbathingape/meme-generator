@@ -9,7 +9,7 @@ function Header() {
         <h1>Meme Generator</h1>
       </div>
       <div>
-        <p>React Course - Project 3</p>
+        <p>Memes! Memes! Memes!</p>
       </div>
     </div>
   )
