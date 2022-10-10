@@ -42,9 +42,9 @@ function Main() {
   return (
     <main className='main'>
       <div className='main--input'>
-        <input type="text" className='form--input' placeholder='Input Text' name='topText' value={meme.topText} onChange={handleChange} />
-        <input type="text" className='form--input' placeholder='Input Text' name='bottomText' value={meme.bottomText} onChange={handleChange} />
-        <button onClick={getImage} className='button--input'>Get a new meme image</button>
+        <input type="text" className='form--input' placeholder='Type top text' name='topText' value={meme.topText} onChange={handleChange} />
+        <input type="text" className='form--input' placeholder='Type bottom text' name='bottomText' value={meme.bottomText} onChange={handleChange} />
+        <button onClick={getImage} className='button--input'>Get a New Meme Image</button>
       </div>
       <br />
       <div className="meme">

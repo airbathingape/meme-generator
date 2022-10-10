@@ -9,7 +9,7 @@ function Header() {
         <h1>Meme Generator</h1>
       </div>
       <div>
-        <p>Memes! Memes! Memes!</p>
+        <p><strong>Memes! Memes! Memes!</strong></p>
       </div>
     </div>
   )
